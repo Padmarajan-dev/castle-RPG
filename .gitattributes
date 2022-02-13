@@ -1,12 +1,11 @@
 <<<<<<< HEAD
 ## Unity ##
-
 *.cs diff=csharp text
 *.cginc text
 *.shader text
 *.mat merge=unityyamlmerge eol=lf
 *.anim merge=unityyamlmerge eol=lf
-*.unity merge=unityyamlmerge eol=lf
+*.unity filter=lfs diff=lfs merge=lfs -text
 *.prefab merge=unityyamlmerge eol=lf
 *.physicsMaterial2D merge=unityyamlmerge eol=lf
 *.physicMaterial merge=unityyamlmerge eol=lf
@@ -95,6 +94,7 @@
 *.shader filter=lfs diff=lfs merge=lfs -text
 *.mat filter=lfs diff=lfs merge=lfs -text
 >>>>>>> 9b26aa58d227fb547dd2371ab2d9f79ab165498f
+*Scene-1.unity filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
@@ -107,7 +107,6 @@
 *.cs filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.asmdef filter=lfs diff=lfs merge=lfs -text
-*.unity filter=lfs diff=lfs merge=lfs -text
 *.bundle filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 *.terrainlayer filter=lfs diff=lfs merge=lfs -text
